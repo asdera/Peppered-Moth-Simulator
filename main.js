@@ -25,6 +25,7 @@ function setup() {
     for (var i = 0; i < 15; i++) {
         migrate(random(Margin, Width), random(Margin, Height));
     }
+    environment = random(50, 250);
 }
 // z=sin((1)/(6)x+(1)/(3)y)+cos((1)/(4)y+20)
 moths = [];
